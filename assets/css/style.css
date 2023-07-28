@@ -14,4 +14,91 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--cv-background);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  border-radius: 1rem;
+  background-color: var(--cv-secondary);
+  color: var(--cv-light);
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
 /* #endregion Common */
+
+/* #region Utilities */
+.debug {
+  border: 2px solid red;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.justify_between {
+  justify-content: space-between;
+}
+
+.pt_3 {
+  padding-top: 3rem;
+}
+
+.roundend-2 {
+  border-radius: 2rem;
+}
+
+.border {
+  border: 0.5rem solid var(--cv-secondary);
+}
+/* #endregion Utilities */
+
+/* #region header */
+[alt="Daniele Morello"] {
+  height: 22rem;
+}
+
+[alt="Gmail"] {
+  margin-top: 4rem;
+}
+
+[alt="Gmail"],
+address {
+  margin-bottom: 2rem;
+}
+
+address {
+  margin-top: 5.6rem;
+}
+
+address,
+#info img {
+  margin-left: 1rem;
+}
+#info img {
+  width: 3rem;
+}
+/* #endregion header */
