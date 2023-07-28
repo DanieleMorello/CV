@@ -33,10 +33,30 @@ h2 {
   padding: 1rem;
 }
 
+h2:hover {
+  color: #9c9c9c;
+}
+
 h3 {
   font-size: 2rem;
   text-transform: uppercase;
   color: var(--cv-primary);
+}
+
+h4 {
+  border-radius: 0.5rem;
+  background-color: var(--cv-secondary);
+  color: var(--cv-light);
+  padding: 0.5rem;
+}
+
+h4:hover {
+  filter: brightness(0.6);
+  transform: scale(1.1);
+}
+
+p {
+  margin-left: 0.5rem;
 }
 
 img {
@@ -76,6 +96,14 @@ figcaption {
   justify-content: space-between;
 }
 
+.mt_1 {
+  margin-top: 1rem;
+}
+
+.pt_1 {
+  padding-top: 1rem;
+}
+
 .pt_3 {
   padding-top: 3rem;
 }
@@ -86,6 +114,10 @@ figcaption {
 
 .border {
   border: 0.5rem solid var(--cv-secondary);
+}
+
+.shadow {
+  box-shadow: 0 7px 10px -6px var(--cv-primary);
 }
 /* #endregion Utilities */
 
