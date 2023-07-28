@@ -33,10 +33,19 @@ h2 {
   padding: 1rem;
 }
 
+h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--cv-primary);
+}
+
 img {
   max-width: 100%;
   height: auto;
   aspect-ratio: 1 / 1;
+}
+article {
+  max-width: 22rem;
 }
 /* #endregion Common */
 
