@@ -1,0 +1,17 @@
+/* #region Common */
+/* ROOT */
+:root {
+  --cv-light: #ffffff;
+  --cv-dark: #000000;
+  --cv-primary: #4150b5;
+  --cv-secondary: #00618a;
+  --cv-background: #6da7cc;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* #endregion Common */
