@@ -111,6 +111,10 @@ figcaption {
   padding-top: 3rem;
 }
 
+.pl_1 {
+  padding-left: 1rem;
+}
+
 .mt_2 {
   margin-top: 2rem;
 }
@@ -129,6 +133,10 @@ figcaption {
 
 .w_35 {
   width: 35%;
+}
+
+.text_center {
+  text-align: center;
 }
 /* #endregion Utilities */
 
