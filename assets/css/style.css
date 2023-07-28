@@ -6,6 +6,7 @@
   --cv-primary: #4150b5;
   --cv-secondary: #00618a;
   --cv-background: #6da7cc;
+  --cv-text-shadow: #ff0000;
 }
 
 /* CSS RESET */
@@ -38,9 +39,10 @@ h2:hover {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
   color: var(--cv-primary);
+  text-shadow: 1px 1px 0px var(--cv-text-shadow);
 }
 
 h4 {
@@ -68,6 +70,7 @@ img {
 article {
   max-width: 22rem;
 }
+
 figcaption {
   color: var(--cv-light);
 }
@@ -85,7 +88,7 @@ figcaption {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .d_flex {
@@ -119,6 +122,10 @@ figcaption {
 .shadow {
   box-shadow: 0 7px 10px -6px var(--cv-primary);
 }
+
+.w_35 {
+  width: 35%;
+}
 /* #endregion Utilities */
 
 /* #region header */
@@ -147,3 +154,11 @@ address,
   width: 3rem;
 }
 /* #endregion header */
+
+#experience h4:not(:first) {
+  margin-top: 3rem;
+}
+
+#experience article {
+  max-width: 22rem;
+}
