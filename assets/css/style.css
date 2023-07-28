@@ -44,8 +44,12 @@ img {
   height: auto;
   aspect-ratio: 1 / 1;
 }
+
 article {
   max-width: 22rem;
+}
+figcaption {
+  color: var(--cv-light);
 }
 /* #endregion Common */
 
