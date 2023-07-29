@@ -1,0 +1,61 @@
+.debug {
+  border: 2px solid red;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.d_flex {
+  display: flex;
+}
+
+.justify_between {
+  justify-content: space-between;
+}
+
+.mt_1 {
+  margin-top: 1rem;
+}
+
+.pt_1 {
+  padding-top: 1rem;
+}
+
+.pt_3 {
+  padding-top: 3rem;
+}
+
+.pl_1 {
+  padding-left: 1rem;
+}
+
+.mt_2 {
+  margin-top: 2rem;
+}
+
+.roundend-2 {
+  border-radius: 2rem;
+}
+
+.border {
+  border: 0.5rem solid var(--cv-secondary);
+}
+
+.shadow {
+  box-shadow: 0 7px 10px -6px var(--cv-primary);
+}
+
+.w_35 {
+  width: 35%;
+}
+
+.text_center {
+  text-align: center;
+}
