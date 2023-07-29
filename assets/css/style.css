@@ -1,90 +1,3 @@
-/* #region Common */
-/* ROOT */
-:root {
-  --cv-light: #ffffff;
-  --cv-dark: #000000;
-  --cv-primary: #4150b5;
-  --cv-secondary: #00618a;
-  --cv-background: #6da7cc;
-}
-
-/* CSS RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: var(--cv-background);
-}
-
-h1 {
-  font-size: 4rem;
-  font-weight: 100;
-}
-
-h2 {
-  font-size: 3rem;
-  font-weight: 900;
-  border-radius: 1rem;
-  background-color: var(--cv-secondary);
-  color: var(--cv-light);
-  padding: 1rem;
-}
-
-h3 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: var(--cv-primary);
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
-}
-article {
-  max-width: 22rem;
-}
-/* #endregion Common */
-
-/* #region Utilities */
-.debug {
-  border: 2px solid red;
-}
-
-.container {
-  max-width: 1150px;
-  margin: auto;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.d_flex {
-  display: flex;
-}
-
-.justify_between {
-  justify-content: space-between;
-}
-
-.pt_3 {
-  padding-top: 3rem;
-}
-
-.roundend-2 {
-  border-radius: 2rem;
-}
-
-.border {
-  border: 0.5rem solid var(--cv-secondary);
-}
-/* #endregion Utilities */
-
 /* #region header */
 [alt="Daniele Morello"] {
   height: 22rem;
@@ -100,7 +13,7 @@ address {
 }
 
 address {
-  margin-top: 5.6rem;
+  margin-top: 4.6rem;
 }
 
 address,
@@ -111,3 +24,16 @@ address,
   width: 3rem;
 }
 /* #endregion header */
+
+#experience h4:not(:first) {
+  margin-top: 3rem;
+}
+
+#experience article {
+  max-width: 22rem;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
